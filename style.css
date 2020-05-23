@@ -1,0 +1,312 @@
+input {
+    height: 30px;
+    border: none;
+    padding: 8px 10px;
+    width: 50px;
+    margin-left: 6px;
+    font-size: 1em;
+}
+
+table {
+    width: 100%;
+}
+
+
+tr td {
+    padding: 5px;
+    color: grey;
+    width: 100%;
+}
+
+tr:nth-child(even) {
+    background-color: silver;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-size: 10px;
+}
+
+
+.page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #a6d45d;
+    /*height: 70px;*/
+    padding: 10px 20px 10px 10px;
+}
+
+.page-search {
+
+}
+
+.page-search-wrapper {
+    display: flex;
+}
+
+.page-search-icon {
+
+}
+
+.page-search-icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: dodgerblue;
+    height: 46px;
+    width: 30px;
+}
+
+.page-header-icon {
+    margin: 0 5px;
+    font-size: 1.5em;
+    color: #f1efef;
+    font-weight: bold;
+}
+
+.page-header-right {
+    display: flex;
+    align-items: center;
+}
+
+.page-img-wrapper img {
+    border-radius: 50%;
+    border: 1px solid #f1efef;
+    height: 50px;
+}
+
+.page-option-wrapper  {
+    color: white;
+    margin: 0 10px;
+
+}
+
+.page-option-wrapper a {
+    text-decoration: none;
+    color: white;
+}
+
+.page-option-wrapper i {
+    font-size: 13px;
+}
+
+
+.inner-rightcol-leftcol-wrapper {
+    display: flex;
+    height: calc(100% - 80px);
+    overflow: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.inner-leftcol {
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    background-color: white;
+    float: left;
+    width: 350px;
+    border: solid white;
+    box-shadow: 2px 3px 8px 5px whitesmoke;
+    border-radius: 7px;
+}
+
+.inner-heading {
+    font-size: 1.8em;
+    border-bottom: solid silver;
+    height:30px;
+    margin: 20px 0px 20px;
+}
+
+.inner-heding-wrapper {
+    font-size: 1.8em;
+    border-bottom: solid silver;
+    margin: 20px 0px 20px;
+
+
+}
+
+.inner-cash  {
+    display:flex;
+    justify-content: flex-end;
+    margin: 0px 5px;
+}
+
+.balanc-number {
+    display: block;
+    margin-left: 30px;
+}
+
+.inner-tabl {
+    display: flex;
+    margin-left: 5px;
+
+}
+
+.inner-date {
+    display: flex;
+    align-self: flex-end;
+    margin-top: auto;
+    margin-bottom: 30px;
+    margin-right: 15px;
+
+}
+
+.inner-date-wrapper {
+
+}
+
+
+
+.inner-rightcol {
+    display: flex;
+    background-color: white;
+    margin-left: 10px;
+    flex-direction: column;
+    flex: 3;
+}
+
+.inner-top {
+    display: flex;
+    align-content: stretch;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.inner-box-wrapper {
+    overflow: hidden;
+    border: 1px solid black;
+    width: 30%;
+    border: solid white;
+    box-shadow: 2px 3px 8px 5px whitesmoke;
+    border-radius: 7px;
+    margin: 0px 5px 5px;
+    padding: 10px 0px;
+    flex-grow: 1;
+
+}
+
+.inner-box-wrapper-row {
+    display: flex;
+    width: 100%;
+}
+
+.inner-box-wrapper:nth-child(3),
+.inner-box-wrapper:nth-child(6) {
+    margin-right: 0px;
+}
+
+.inner-content-icon {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    color: cornflowerblue;
+}
+
+.inner-text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 5%;
+    font-size: 0.6em;
+    white-space: nowrap;
+    overflow: hidden;
+    ;
+}
+
+.inner-info {
+
+}
+
+.inner-pay {
+
+}
+
+.inner-search {
+
+
+}
+
+.inner-contacts {
+
+}
+
+.inner-messages {
+
+}
+
+.inner-doc {
+
+}
+
+.inner-page-more {
+    background-color: white;
+    border: solid white;
+    box-shadow: 2px 3px 8px 5px whitesmoke;
+    border-radius: 7px;
+    margin-left: 5px;
+
+    flex-grow: 1;
+
+}
+
+.inner-page-title {
+    display: flex;
+    padding: 10px 2px ;
+    font-size: 30px;
+
+    border-bottom: solid silver;
+    height: 30px;
+    margin: 0px ;
+
+}
+
+.inner-page-text {
+    display: flex;
+    justify-content: flex-start;
+    margin:10px 15px;
+    font-size: 17px;
+}
+
+.inner-page-info {
+    display: flex;
+    margin:20px 15px;
+    color: silver;
+    overflow: hidden;
+
+}
+
+
+@media (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    input {
+        width: 250px;
+    }
+    .inner-rightcol-leftcol-wrapper {
+        padding: 20px;
+    }
+}
+@media (min-width: 1280px) {
+    input {
+        width: 400px;
+    }
+
+    .page-header-icon {
+        margin: 0px 20px;
+    }
+    .inner-heading {
+        margin-left: 30px;
+    }
+    .inner-heding-wrapper {
+        margin-left: 30px;
+    }
+    .inner-page-title {
+        margin-left: 30px;
+    }
+}
